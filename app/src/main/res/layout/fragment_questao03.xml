@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questoesfragments.Questao03Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="1. Por quanto tempo você pretende deixar seu dinheiro investido?" />
+
+        <RadioGroup
+            android:id="@+id/rg_questao03"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Menos de 6 meses" />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Entre 6 meses e 1 ano" />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Entre 1 ano e 3 anos" />
+
+            <RadioButton
+                android:id="@+id/rbd_alternativa03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Acima de 3 anos" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

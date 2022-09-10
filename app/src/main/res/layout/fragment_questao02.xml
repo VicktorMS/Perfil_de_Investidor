@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questoesfragments.Questao02Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="2. Qual o objetivo desse investimento? " />
+
+        <RadioGroup
+            android:id="@+id/rg_questao02"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Preservação do capital para não perder valor ao longo do tempo,
+assumindo baixos riscos de perdas" />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Aumento gradual do capital ao longo do tempo, assumindo riscos
+moderados" />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Aumento do capital acima da taxa de retorno média do mercado, mesmo
+que isso implique assumir riscos de perdas elevadas" />
+
+            <RadioButton
+                android:id="@+id/rbd_alternativa02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Obter no curto prazo retornos elevados e significativamente acima da taxa
+de retorno média do mercado, assumindo riscos elevados" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

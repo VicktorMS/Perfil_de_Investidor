@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_questoes.xml" value="0.28651685393258425" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_resultado.xml" value="0.13949275362318841" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao01.xml" value="0.33" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao02.xml" value="0.25" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao03.xml" value="0.34288692027097445" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
