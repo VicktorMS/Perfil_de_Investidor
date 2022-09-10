@@ -3,12 +3,72 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questao08Fragment">
+    tools:context=".questoesfragments.Questao08Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="8. Qual sua faixa de renda mensal média?" />
+
+        <RadioGroup
+            android:id="@+id/rg_questao08"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Até R$ 1.000" />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="De R$ 1.001 até R$ 5.000 " />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="De R$ 5.001 até R$ 10.000" />
+
+            <RadioButton
+                android:id="@+id/rbd_alternativa08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Acima de R$ 10.000" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao08"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
 
 </FrameLayout>

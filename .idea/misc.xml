@@ -5,10 +5,16 @@
       <map>
         <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_questoes.xml" value="0.28651685393258425" />
-        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_resultado.xml" value="0.13949275362318841" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/activity_resultado.xml" value="0.25" />
         <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao01.xml" value="0.33" />
         <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao02.xml" value="0.25" />
         <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao03.xml" value="0.34288692027097445" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao04.xml" value="0.16666666666666666" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao05.xml" value="0.16666666666666666" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao06.xml" value="0.16666666666666666" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao07.xml" value="0.1716485507246377" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao08.xml" value="0.1716485507246377" />
+        <entry key="..\:/Trabalho/TestedePerformace32/app/src/main/res/layout/fragment_questao09.xml" value="0.1716485507246377" />
       </map>
     </option>
   </component>

@@ -3,12 +3,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questao07Fragment">
+    tools:context=".questoesfragments.Questao07Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="7. Em relação as aplicações e rendimentos, em qual dessas situações você
+ se enquadra? " />
+
+        <RadioGroup
+            android:id="@+id/rg_questao07"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Conto com o rendimento dessas aplicações para complementar minha
+renda mensal " />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Eventualmente posso resgatar parte das aplicações para fazer frente aos
+meus gastos. Contudo, não tenho intenção de resgatar no curto prazo e
+pretendo fazer aplicações regulares" />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Não tenho intenção de resgatar no curto prazo, mas não pretendo realizar
+novas aplicações" />
+
+            <RadioButton
+                android:id="@+id/rbd_alternativa07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Não tenho intenção de resgatar no curto prazo e ainda pretendo fazer
+aplicações regulares" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao07"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
 
 </FrameLayout>

@@ -25,32 +25,61 @@
     </fragment>
     <fragment
         android:id="@+id/questao03Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao03Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao03Fragment"
         android:label="fragment_questao03"
-        tools:layout="@layout/fragment_questao03" />
+        tools:layout="@layout/fragment_questao03" >
+        <action
+            android:id="@+id/action_questao03Fragment_to_questao04Fragment"
+            app:destination="@id/questao04Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/questao04Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao04Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao04Fragment"
         android:label="fragment_questao04"
-        tools:layout="@layout/fragment_questao04" />
+        tools:layout="@layout/fragment_questao04" >
+        <action
+            android:id="@+id/action_questao04Fragment_to_questao05Fragment"
+            app:destination="@id/questao05Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/questao05Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao05Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao05Fragment"
         android:label="fragment_questao05"
-        tools:layout="@layout/fragment_questao05" />
+        tools:layout="@layout/fragment_questao05" >
+        <action
+            android:id="@+id/action_questao05Fragment_to_questao06Fragment"
+            app:destination="@id/questao06" />
+    </fragment>
     <fragment
         android:id="@+id/questao07Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao07Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao07Fragment"
         android:label="fragment_questao07"
-        tools:layout="@layout/fragment_questao07" />
+        tools:layout="@layout/fragment_questao07" >
+        <action
+            android:id="@+id/action_questao07Fragment_to_questao08Fragment"
+            app:destination="@id/questao08Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/questao08Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao08Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao08Fragment"
         android:label="fragment_questao08"
-        tools:layout="@layout/fragment_questao08" />
+        tools:layout="@layout/fragment_questao08" >
+        <action
+            android:id="@+id/action_questao08Fragment_to_questao09Fragment"
+            app:destination="@id/questao09Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/questao09Fragment"
-        android:name="br.pro.moraes.testedeperformace3.Questao09Fragment"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao09Fragment"
         android:label="fragment_questao09"
         tools:layout="@layout/fragment_questao09" />
+    <fragment
+        android:id="@+id/questao06"
+        android:name="br.pro.moraes.testedeperformace3.questoesfragments.Questao06Fragment"
+        android:label="fragment_questao06"
+        tools:layout="@layout/fragment_questao06" >
+        <action
+            android:id="@+id/action_questao06Fragment_to_questao07Fragment"
+            app:destination="@id/questao07Fragment" />
+    </fragment>
 </navigation>

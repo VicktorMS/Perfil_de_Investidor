@@ -3,12 +3,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questao04Fragment">
+    tools:context=".questoesfragments.Questao04Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="4. Considerando seus rendimentos regulares, qual a porcentagem você
+ pretende reservar para aplicações financeiras?" />
+
+        <RadioGroup
+            android:id="@+id/rg_questao04"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="No máximo 25% " />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Entre 25,01 e 50%" />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Acima de 50%" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
 
 </FrameLayout>

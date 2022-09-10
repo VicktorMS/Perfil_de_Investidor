@@ -21,6 +21,19 @@ class ResultadoActivity : AppCompatActivity() {
     private fun setupViews() {
         val nome = intent.getStringExtra(NOME)
         val pontuacaoResultado = intent.getIntExtra(PONTUACAO_RESULTADO, 0)
+        var perfil = ""
+        if (pontuacaoResultado <= 14) {
+            perfil = "Conservador"
+        }
+        else if (pontuacaoResultado <= 35){
+            perfil = "Moderado"
+        }
+        else{
+            perfil = "Arrojado"
+        }
+
+        binding.tvResultadoTexto.text = perfil
+        binding.tvResultadoNome.text = "Investidor: ${nome}"
     }
 
     companion object{

@@ -16,7 +16,8 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:layout_margin="8dp"
-            android:text="1. Por quanto tempo você pretende deixar seu dinheiro investido?" />
+            android:text="3. Qual das alternativas melhor classifica sua formação e experiência com
+ o mercado financeiro?" />
 
         <RadioGroup
             android:id="@+id/rg_questao03"
@@ -30,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:layout_marginTop="3dp"
-                android:text="Menos de 6 meses" />
+                android:text="Não possuo formação acadêmica ou conhecimento do mercado financeiro" />
 
             <RadioButton
                 android:id="@+id/rbb_alternativa03"
@@ -38,7 +39,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:layout_marginTop="3dp"
-                android:text="Entre 6 meses e 1 ano" />
+                android:text="Possuo formação acadêmica na área financeira, mas não tenho experiência
+com o mercado financeiro" />
 
             <RadioButton
                 android:id="@+id/rbc_alternativa03"
@@ -46,7 +48,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:layout_marginTop="3dp"
-                android:text="Entre 1 ano e 3 anos" />
+                android:text="Possuo formação acadêmica em outra área, mas possuo conhecimento do
+mercado financeiro" />
 
             <RadioButton
                 android:id="@+id/rbd_alternativa03"
@@ -54,7 +57,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:layout_marginTop="3dp"
-                android:text="Acima de 3 anos" />
+                android:text="Possuo formação acadêmica na área financeira ou pleno conhecimento do
+mercado financeiro" />
 
         </RadioGroup>
 

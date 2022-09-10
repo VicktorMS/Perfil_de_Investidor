@@ -3,12 +3,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questao05Fragment">
+    tools:context=".questoesfragments.Questao05Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="5. Caso as suas aplicações sofressem uma queda superior a 30%,
+ o que você faria? " />
+
+        <RadioGroup
+            android:id="@+id/rg_questao05"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Resgataria toda a aplicação e aplicaria na poupança" />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Manteria aplicação aguardando uma melhora do mercado " />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Aumentaria a aplicação para aproveitar as oportunidades do mercado" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
 
 </FrameLayout>

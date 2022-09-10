@@ -7,21 +7,21 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import br.pro.moraes.testedeperformace3.R
-import br.pro.moraes.testedeperformace3.databinding.FragmentQuestao03Binding
+import br.pro.moraes.testedeperformace3.databinding.FragmentQuestao05Binding
 import br.pro.moraes.testedeperformace3.interfaces.FragmentAnswerListener
 import br.pro.moraes.testedeperformace3.questoesfragments.utils.nav
 
 
-class Questao03Fragment : Fragment() {
+class Questao05Fragment : Fragment() {
 
-    private var _binding: FragmentQuestao03Binding? = null
+    private var _binding: FragmentQuestao05Binding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentQuestao03Binding.inflate(inflater,container, false)
+        _binding = FragmentQuestao05Binding.inflate(inflater,container, false)
         val view = binding.root
 
         setupClickListeners()
@@ -38,24 +38,24 @@ class Questao03Fragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        binding.btnConfirmarQuestao03.setOnClickListener{
+        binding.btnConfirmarQuestao05.setOnClickListener{
             val resposta = respostaSelecionada()
             if(resposta != -1){
                 listener.onSendAnswer(resposta)
-                nav(R.id.action_questao03Fragment_to_questao04Fragment)
+
+                nav(R.id.action_questao05Fragment_to_questao06Fragment)
             }
         }
     }
 
     private fun respostaSelecionada(): Int {
-        if (binding.rgQuestao03.checkedRadioButtonId == -1) {
+        if (binding.rgQuestao05.checkedRadioButtonId == -1) {
             return -1
         } else {
-            when (binding.rgQuestao03.checkedRadioButtonId) {
-                R.id.rba_alternativa03 -> return 0
-                R.id.rbb_alternativa03 -> return 1
-                R.id.rbc_alternativa03 -> return 2
-                R.id.rbd_alternativa03 -> return 4
+            when (binding.rgQuestao05.checkedRadioButtonId) {
+                R.id.rba_alternativa05 -> return 0
+                R.id.rbb_alternativa05 -> return 2
+                R.id.rbc_alternativa05 -> return 4
             }
         }
         return -1

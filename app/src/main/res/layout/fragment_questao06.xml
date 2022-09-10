@@ -3,12 +3,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Questao06">
+    tools:context=".questoesfragments.Questao06Fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_enunciado06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_margin="8dp"
+            android:text="6. Como está distribuído o seu patrimônio?" />
+
+        <RadioGroup
+            android:id="@+id/rg_questao06"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/rba_alternativa06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Meu patrimônio não está aplicado ou está todo aplicado em renda fixa e/ou
+imóveis" />
+
+            <RadioButton
+                android:id="@+id/rbb_alternativa06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Menos de 25% em renda variável e o restante em renda fixa e/ou imóveis" />
+
+            <RadioButton
+                android:id="@+id/rbc_alternativa06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Entre 25,01 e 50% aplicado em renda variável e o restante em renda fixa
+e/ou imóveis" />
+
+            <RadioButton
+                android:id="@+id/rbd_alternativa06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginTop="3dp"
+                android:text="Acima de 50% em renda variável" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_confirmar_questao06"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="8dp"
+            android:text="confirmar" />
+
+
+    </LinearLayout>
+
+
 
 </FrameLayout>
