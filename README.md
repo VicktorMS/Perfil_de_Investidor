@@ -12,6 +12,8 @@
 
 > Esse projeto é nada mais que um aplicativo para Análise de perfil de investidor. Quando uma pessoa deseja realizar investimentos por intermédio de um banco ou uma corretora, é comum que ela tenha que preencher um questionário para avaliar o seu perfil de investidor, de modo que ela possa ser orientada para investimentos mais adequados ao seu momento de vida, patrimônio e propensão/tolerância ao risco. 
 Baseado no questionário e na metodologia que Banco Paulista disponibilizou online, o aplicativo foi montado.
+https://www.bancopaulista.com.br/Arquivos/QuestionarioAPI.pdf
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
